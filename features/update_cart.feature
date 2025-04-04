@@ -1,4 +1,4 @@
-@wip
+@ok
 Feature: Öka antalet böcker om samma bok redan finns i varukorgen
 
 Scenario:
