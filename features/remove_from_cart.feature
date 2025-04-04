@@ -1,4 +1,4 @@
-@wip
+@ok
 Feature: Ta bort bok från varukorgen
 
 Scenario:
