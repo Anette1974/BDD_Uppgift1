@@ -1,4 +1,4 @@
-
+@wip
 Feature: Töm hela varukorgen
 
 Scenario:
