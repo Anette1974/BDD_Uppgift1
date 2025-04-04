@@ -1,4 +1,4 @@
-@wip
+@ok
 Feature: Varukorgen visar alltid aktuell summa och antal böcker
 
 Scenario:
