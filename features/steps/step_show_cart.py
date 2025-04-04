@@ -3,7 +3,7 @@ from behave import given, when, then
 @given(u'Användaren är på bokhandelns webshop')
 def step_webshop(context):
     context.cart = ["Koda för nybörjare"]
-    print("Användaren är bokhandelns webshop")
+    print("Användaren är på bokhandelns webshop")
 
 
 @when(u'Användaren klickar på ikon för varukorg')
