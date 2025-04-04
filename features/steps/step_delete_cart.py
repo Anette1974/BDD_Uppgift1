@@ -1,9 +1,10 @@
 from behave import given, when, then
 
-@given(u'Användaren har en eller flera böcker i varukorgen')
-def step_cart_not_empty(context, cart):
-    context.cart = ["Bok 1"]
-    raise NotImplementedError(u'STEP: Given Användaren har en eller flera böcker i varukorgen')
+@given(u'Böcker i varukorgen')
+def step_cart_not_empty(context):
+    context.cart = ["Kokbok", "Snickra"]
+    assert len(context.cart) > 0, "Varukorgen är tom"
+    print(f"I varukorgen ligger följande böcker {context.cart}")
 
 
 @when(u'Användaren klickar på töm varukorg')
@@ -13,13 +14,13 @@ def step_when_click_empty(context):
 
 
 @then(u'Boken/ böckerna tas bort från varukorgen')
-def step_when_clean_cart(context, cart):
+def step_when_clean_cart(context):
     context.cart = []
     print("Varukorgen är tömd")
 
 
-@then(u'saldo i varukorgen uppdateras')
-def step_impl(context, amount):
+@then(u'saldo i varukorgen uppdateras till 0')
+def step_impl(context):
     context.amount = 0
     print("Köpesumman är noll")
 

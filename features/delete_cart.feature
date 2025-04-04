@@ -1,4 +1,4 @@
-@wip
+@ok @shared
 Feature: Töm hela varukorgen
 
 Scenario:

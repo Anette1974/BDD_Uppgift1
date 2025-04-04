@@ -1,4 +1,4 @@
-@ok
+@ok @shared
 Feature: Ta bort bok från varukorgen
 
 Scenario:
