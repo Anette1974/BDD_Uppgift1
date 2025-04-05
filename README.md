@@ -1,6 +1,6 @@
 Anette Cedergren
-
-Jag har tyvärr inte fått mina scenario att fungera men jag kommer att fortsätta jobba med dem.
+Uppdatering 5/4-25
+Nu har jag fått min kod att fungera för uppgift 1, del 1, med tags och scenario outline.
 Jag tycker att detta var svårt då jag inte programmerat tidigare, förutom 10v Python med David.
 
 

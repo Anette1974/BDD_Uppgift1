@@ -14,10 +14,10 @@ def step_add_book(context, book):
 
 
 @then(u'Boken hamnar i varukorgen')
-def step_cart_updated(context, book):
+def step_cart_updated(context):
     print("Boken tillagd i varukorgen")
 
 
 @then(u'summan i varukorgen ska uppdateras med priset {price}')
-def step_amount_updated(context, cost):
+def step_amount_updated(context, price):
     print("Köpesumman uppdaterad")

@@ -1,4 +1,4 @@
-@wip
+@ok
 Feature: Lägga till en bok i varukorgen
 
 Scenario Outline:
